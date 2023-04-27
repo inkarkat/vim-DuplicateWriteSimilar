@@ -1,4 +1,4 @@
-DUPLICATE WRITE SIMILAR   
+DUPLICATE WRITE SIMILAR
 ===============================================================================
 _by Ingo Karkat_
 
@@ -14,11 +14,12 @@ the original :DuplicateWrite command.
 USAGE
 ------------------------------------------------------------------------------
 
-    :DuplicateWritePlus[!],  :DuplicateWriteMinus[!],
-    :DuplicateWriteSubstitute[!],  :DuplicateWriteRoot[!]
-                            Create a cascaded write of the current buffer to a
-                            file with a similar name, using the substitutions and
-                            iterations provided by the EditSimilar.vim plugin.
+    :[range]DuplicateWritePlus[!],  :[range]DuplicateWriteMinus[!],
+    :[range]DuplicateWriteSubstitute[!],  :[range]DuplicateWriteRoot[!]
+                            Create a cascaded write of [range in] the current
+                            buffer to a file with a similar name, using the
+                            substitutions and iterations provided by the
+                            EditSimilar.vim plugin.
                             With [!], duplication only happens with forced
                             :write!, not with :write.
 
@@ -66,7 +67,7 @@ First published version.
 - Started development.
 
 ------------------------------------------------------------------------------
-Copyright: (C) 2018 Ingo Karkat -
+Copyright: (C) 2018-2023 Ingo Karkat -
 The [VIM LICENSE](http://vimdoc.sourceforge.net/htmldoc/uganda.html#license) applies to this plugin.
 
-Maintainer:     Ingo Karkat <ingo@karkat.de>
+Maintainer:     Ingo Karkat &lt;ingo@karkat.de&gt;
